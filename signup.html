@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - GameArena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">GameArena</a>
+                
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="esports.html">Esports</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <a href="login.html" class="auth-btn login-btn">Login/Signup</a>
+                    <!-- <a href="signup.html" class="auth-btn signup-btn">Sign Up</a> -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Auth Section -->
+    <section class="auth-container">
+        <div class="container">
+            <div class="auth-card">
+                <h2 class="auth-title">Create Account</h2>
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" class="form-control" placeholder="Choose a username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" class="form-control" placeholder="Create a password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" class="form-control" placeholder="Confirm your password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="game">Primary Game</label>
+                        <select id="game" class="form-control" required>
+                            <option value="">Select your primary game</option>
+                            <option value="valorant">Valorant</option>
+                            <option value="bgmi">BGMI</option>
+                            <option value="freefire">Free Fire</option>
+                            <option value="csgo">CS:GO</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="skill-level">Skill Level</label>
+                        <select id="skill-level" class="form-control" required>
+                            <option value="">Select your skill level</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>
+                            <option value="professional">Professional</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="display: flex; align-items: flex-start;">
+                        <input type="checkbox" id="terms" required style="margin-right: 10px; margin-top: 5px;">
+                        <label for="terms">I agree to the <a href="#" style="color: var(--neon-green);">Terms of Service</a> and <a href="#" style="color: var(--neon-green);">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Create Account</button>
+                </form>
+                <div class="auth-link">
+                    <p>Already have an account? <a href="login.html">Log in here</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GameArena</h3>
+                    <p>The ultimate destination for neon gaming experiences and digital excitement.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="esports.html">Esports</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Games</h3>
+                    <ul class="footer-links">
+                        <li><a href="esports.html">Valorant</a></li>
+                        <li><a href="esports.html">BGMI</a></li>
+                        <li><a href="esports.html">Free Fire</a></li>
+                        <li><a href="esports.html">CS:GO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 GameArena Legends. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
