@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports - GameArena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">GameArena</a>
+                
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="esports.html" class="active">Esports</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <a href="login.html" class="auth-btn login-btn">Login/Signup</a>
+                    <!-- <a href="signup.html" class="auth-btn signup-btn">Sign Up</a> -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 30vh; min-height: 250px;">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container page-transition">
+            <div class="hero-content" style="display: flex; flex-direction: column;">
+                <h1 class="hero-title" style="margin: 1rem 0;">ESPORTS</h1>
+                <h2 class="hero-subtitle" style="margin: 1rem 0;">TOURNAMENTS</h2>
+                <p class="hero-description" >
+                    Compete in the biggest gaming tournaments with massive prize pools and global recognition.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tournaments Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Upcoming Tournaments</h2>
+            <div class="tournaments-grid">
+                <div class="tournament-card">
+                    <h3 class="tournament-title">Valorant Champions Tour</h3>
+                    <div class="tournament-details">
+                        <div class="detail">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>June 15-30, 2026</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-trophy"></i>
+                            <span>Prize Pool: $1,000,000</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-users"></i>
+                            <span>16 Teams Participating</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Online & Los Angeles</span>
+                        </div>
+                    </div>
+                    <a href="signup.html" class="btn">Register Now</a>
+                </div>
+                <div class="tournament-card">
+                    <h3 class="tournament-title">BGMI Masters Series</h3>
+                    <div class="tournament-details">
+                        <div class="detail">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>July 5-20, 2026</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-trophy"></i>
+                            <span>Prize Pool: $500,000</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-users"></i>
+                            <span>24 Teams Participating</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Online</span>
+                        </div>
+                    </div>
+                    <a href="signup.html" class="btn">Register Now</a>
+                </div>
+                <div class="tournament-card">
+                    <h3 class="tournament-title">Free Fire World Series</h3>
+                    <div class="tournament-details">
+                        <div class="detail">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>August 10-25, 2026</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-trophy"></i>
+                            <span>Prize Pool: $750,000</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-users"></i>
+                            <span>18 Teams Participating</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bangkok, Thailand</span>
+                        </div>
+                    </div>
+                    <a href="signup.html" class="btn">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section class="section" style="background: rgba(168, 255, 0, 0.03);">
+        <div class="container">
+            <h2 class="section-title">Featured Games</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-img" style="background-image: url('/img/valorant2.png');"></div>
+                    <div class="game-content">
+                        <h3 class="game-title">Valorant</h3>
+                        <p class="game-description">5v5 character-based tactical FPS with precise gunplay and unique agent abilities.</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-img" style="background-image: url('/img/bgmi2.PNG');"></div>
+                    <div class="game-content">
+                        <h3 class="game-title">BGMI</h3>
+                        <p class="game-description">Battle royale game where players fight to be the last one standing on a shrinking map.</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-img" style="background-image: url('/img/freefire.PNG');"></div>
+                    <div class="game-content">
+                        <h3 class="game-title">Free Fire</h3>
+                        <p class="game-description">Fast-paced battle royale with 10-minute matches and unique character abilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GameArena</h3>
+                    <p>The ultimate destination for neon gaming experiences and digital excitement.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="esports.html">Esports</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Games</h3>
+                    <ul class="footer-links">
+                        <li><a href="esports.html">Valorant</a></li>
+                        <li><a href="esports.html">BGMI</a></li>
+                        <li><a href="esports.html">Free Fire</a></li>
+                        <li><a href="esports.html">CS:GO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 GameArena Legends. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

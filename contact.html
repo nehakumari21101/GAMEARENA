@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - GameArena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">GameArena</a>
+                
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="esports.html">Esports</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <a href="login.html" class="auth-btn login-btn">Login/Signup</a>
+                    <!-- <a href="signup.html" class="auth-btn signup-btn">Sign Up</a> -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 40vh; min-height: 250px;">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container page-transition">
+            <div class="hero-content" style="display: flex; flex-direction: column;">
+                <h1 class="hero-title" style="margin: 1rem 0;">CONTACT US</h1>
+                <h2 class="hero-subtitle" style="margin: 0.5rem 0;">GET IN TOUCH</h2>
+                <p class="hero-description">
+                    Have questions about tournaments, teams, or partnerships? Reach out to us!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 style="font-size: 2rem; margin-bottom: 20px; color: var(--neon-green);">Get In Touch</h3>
+                    <p style="margin-bottom: 30px; color: rgba(255, 255, 255, 0.8);">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@gamehub.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Gaming Street, Esports City, GC 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links" style="margin-top: 30px;">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 20px; color: var(--neon-green);">Send Us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background: rgba(168, 255, 0, 0.03);">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 30px; padding: 20px; background: var(--card-bg); border-radius: 10px; border-left: 3px solid var(--neon-green);">
+                    <h3 style="color: var(--neon-green); margin-bottom: 10px;">How do I register for a tournament?</h3>
+                    <p style="color: rgba(255, 255, 255, 0.8);">You can register for any tournament by visiting the Esports page, selecting the tournament you're interested in, and clicking the "Register Now" button. You'll need to create an account first if you don't have one.</p>
+                </div>
+                <div style="margin-bottom: 30px; padding: 20px; background: var(--card-bg); border-radius: 10px; border-left: 3px solid var(--neon-green);">
+                    <h3 style="color: var(--neon-green); margin-bottom: 10px;">What are the requirements to participate?</h3>
+                    <p style="color: rgba(255, 255, 255, 0.8);">Requirements vary by tournament but generally include having the game installed, meeting any rank/level requirements, and being available during the scheduled tournament times. Specific requirements are listed on each tournament page.</p>
+                </div>
+                <div style="margin-bottom: 30px; padding: 20px; background: var(--card-bg); border-radius: 10px; border-left: 3px solid var(--neon-green);">
+                    <h3 style="color: var(--neon-green); margin-bottom: 10px;">How are prizes distributed?</h3>
+                    <p style="color: rgba(255, 255, 255, 0.8);">Prizes are typically distributed within 30 days of tournament completion. Winners will be contacted via email with instructions on how to claim their prizes. Payment methods vary but often include bank transfer, PayPal, or in-game currency.</p>
+                </div>
+                <div style="padding: 20px; background: var(--card-bg); border-radius: 10px; border-left: 3px solid var(--neon-green);">
+                    <h3 style="color: var(--neon-green); margin-bottom: 10px;">Can I form my own team?</h3>
+                    <p style="color: rgba(255, 255, 255, 0.8);">Yes! Most tournaments allow you to register with your own team. You can create a team through your account dashboard and invite other players to join. Some tournaments also have solo registration options where you'll be matched with teammates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GameArena</h3>
+                    <p>The ultimate destination for neon gaming experiences and digital excitement.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="esports.html">Esports</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Games</h3>
+                    <ul class="footer-links">
+                        <li><a href="esports.html">Valorant</a></li>
+                        <li><a href="esports.html">BGMI</a></li>
+                        <li><a href="esports.html">Free Fire</a></li>
+                        <li><a href="esports.html">CS:GO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 GameArena Legends. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

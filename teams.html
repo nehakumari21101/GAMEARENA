@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams - GameArena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">GameArena</a>
+                
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="esports.html">Esports</a></li>
+                    <li><a href="teams.html" class="active">Teams</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="auth-buttons">
+                    <a href="login.html" class="auth-btn login-btn">Login/signup</a>
+                    <!-- <a href="signup.html" class="auth-btn signup-btn">Sign Up</a> -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 40vh; min-height: 250px;">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container page-transition">
+            <div class="hero-content" style="display: flex; flex-direction: column;">
+                <h1 class="hero-title" style="margin: 1rem 0;">PRO TEAMS</h1>
+                <h2 class="hero-subtitle" style="margin: 0.5rem 0;">PLAYERS</h2>
+                <p class="hero-description">
+                    Meet the best teams and players dominating the esports scene with incredible skill and strategy.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teams Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Teams</h2>
+            <div class="teams-grid">
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/teampheonix.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Team Phoenix</h3>
+                        <p>Top-ranked Valorant team with multiple championship wins.</p>
+                        <div class="team-players">
+                            <span class="player">Shadow (IGL)</span>
+                            <span class="player">Blaze (Entry)</span>
+                            <span class="player">Frost (Sniper)</span>
+                            <span class="player">Viper (Support)</span>
+                        </div>
+                        <div class="team-stats" style="margin-top: 15px;">
+                            <p><strong>Wins:</strong> 24</p>
+                            <p><strong>Tournaments:</strong> 12</p>
+                            <p><strong>Earnings:</strong> $350,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/teamtitan.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Sentinels</h3>
+                        <p>Dominant CS:GO team known for strategic gameplay.</p>
+                        <div class="team-players">
+                            <span class="player">Rogue (IGL)</span>
+                            <span class="player">Hunter (Entry)</span>
+                            <span class="player">Snipe (Sniper)</span>
+                            <span class="player">Medic (Support)</span>
+                        </div>
+                        <div class="team-stats" style="margin-top: 15px;">
+                            <p><strong>Wins:</strong> 18</p>
+                            <p><strong>Tournaments:</strong> 9</p>
+                            <p><strong>Earnings:</strong> $280,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/teamsentinals.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Titans Esports</h3>
+                        <p>Rising BGMI team with aggressive playstyle.</p>
+                        <div class="team-players">
+                            <span class="player">Titan (IGL)</span>
+                            <span class="player">Storm (Assault)</span>
+                            <span class="player">Eagle (Sniper)</span>
+                            <span class="player">Ghost (Support)</span>
+                        </div>
+                        <div class="team-stats" style="margin-top: 15px;">
+                            <p><strong>Wins:</strong> 15</p>
+                            <p><strong>Tournaments:</strong> 8</p>
+                            <p><strong>Earnings:</strong> $120,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/teamvelocity.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Velocity Gaming</h3>
+                        <p>Free Fire specialists with consistent performance.</p>
+                        <div class="team-players">
+                            <span class="player">Flash (IGL)</span>
+                            <span class="player">Bolt (Rusher)</span>
+                            <span class="player">Arrow (Sniper)</span>
+                            <span class="player">Shield (Support)</span>
+                        </div>
+                        <div class="team-stats" style="margin-top: 15px;">
+                            <p><strong>Wins:</strong> 21</p>
+                            <p><strong>Tournaments:</strong> 11</p>
+                            <p><strong>Earnings:</strong> $95,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Players Section -->
+    <section class="section" style="background: rgba(168, 255, 0, 0.03);">
+        <div class="container">
+            <h2 class="section-title">Top Players</h2>
+            <div class="teams-grid">
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/shadow.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Shadow</h3>
+                        <p><strong>Team:</strong> Team Phoenix</p>
+                        <p><strong>Game:</strong> Valorant</p>
+                        <p><strong>Role:</strong> In-Game Leader</p>
+                        <div class="player-stats" style="margin-top: 15px;">
+                            <p><strong>K/D Ratio:</strong> 1.35</p>
+                            <p><strong>Headshot %:</strong> 28%</p>
+                            <p><strong>Tournament Wins:</strong> 8</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/rouge.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Rogue</h3>
+                        <p><strong>Team:</strong> Sentinels</p>
+                        <p><strong>Game:</strong> CS:GO</p>
+                        <p><strong>Role:</strong> In-Game Leader</p>
+                        <div class="player-stats" style="margin-top: 15px;">
+                            <p><strong>K/D Ratio:</strong> 1.42</p>
+                            <p><strong>Headshot %:</strong> 45%</p>
+                            <p><strong>Tournament Wins:</strong> 6</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="team-img" style="background-image: url('/img/titan.PNG');"></div>
+                    <div class="team-content">
+                        <h3 class="team-name">Titan</h3>
+                        <p><strong>Team:</strong> Titans Esports</p>
+                        <p><strong>Game:</strong> BGMI</p>
+                        <p><strong>Role:</strong> In-Game Leader</p>
+                        <div class="player-stats" style="margin-top: 15px;">
+                            <p><strong>K/D Ratio:</strong> 5.2</p>
+                            <p><strong>Win Rate:</strong> 32%</p>
+                            <p><strong>Tournament Wins:</strong> 5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GameArena</h3>
+                    <p>The ultimate destination for neon gaming experiences and digital excitement.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="esports.html">Esports</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Games</h3>
+                    <ul class="footer-links">
+                        <li><a href="esports.html">Valorant</a></li>
+                        <li><a href="esports.html">BGMI</a></li>
+                        <li><a href="esports.html">Free Fire</a></li>
+                        <li><a href="esports.html">CS:GO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 GameArena Legends. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

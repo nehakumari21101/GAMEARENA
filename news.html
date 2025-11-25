@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News - GameArena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">GameArena</a>
+
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </label>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="esports.html">Esports</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="news.html" class="active">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <div class="auth-buttons">
+                    <a href="login.html" class="auth-btn login-btn">Login/Signup</a>
+                    <!-- <a href="signup.html" class="auth-btn signup-btn">Sign Up</a> -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- <section class="hero" style="height: 60vh; min-height: 500px;">
+        <div class="floating-elements">
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element"></div>
+        </div>
+        <div class="container page-transition">
+            <div class="hero-content">
+                <h1 class="hero-title">GAMING NEWS</h1>
+                <h2 class="hero-subtitle">UPDATES</h2>
+                <p class="hero-description">
+                    Stay updated with the latest news, patch notes, tournament results, and esports events.
+                </p>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- News Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Latest News</h2>
+
+            <div class="news-carousel">
+                <!-- Radio buttons for manual navigation -->
+                <input type="radio" name="carousel" id="slide1" class="carousel-radio" checked>
+                <input type="radio" name="carousel" id="slide2" class="carousel-radio">
+                <input type="radio" name="carousel" id="slide3" class="carousel-radio">
+                <input type="radio" name="carousel" id="slide4" class="carousel-radio">
+
+                <div class="carousel-slides">
+                    <div class="carousel-slide" style="background-image: url('/img/valorant3.PNG');">
+                        <div class="carousel-content">
+                            <h3>New Valorant Agent Revealed</h3>
+                            <p>Riot Games has unveiled the newest agent joining the Valorant roster with unique
+                                abilities that will change the meta.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('/img/campionship.PNG');">
+                        <div class="carousel-content">
+                            <h3>World Championship Dates Announced</h3>
+                            <p>The dates for the 2023 League of Legends World Championship have been officially
+                                announced with exciting format changes.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('/img/csgo.PNG');">
+                        <div class="carousel-content">
+                            <h3>New Tournament Format Revealed</h3>
+                            <p>ESL announces a new competitive format for upcoming CS:GO tournaments with increased
+                                prize pools and regional qualifiers.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('/img/teamtitan.PNG');">
+                        <div class="carousel-content">
+                            <h3>Team Titans Win Championship</h3>
+                            <p>Team Titans secure their third championship title with a stunning reverse sweep in the
+                                grand finals against Flame Xtreme.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Dots -->
+                <div class="carousel-nav">
+                    <label for="slide1" class="carousel-dot"></label>
+                    <label for="slide2" class="carousel-dot"></label>
+                    <label for="slide3" class="carousel-dot"></label>
+                    <label for="slide4" class="carousel-dot"></label>
+                </div>
+            </div>
+
+            <div class="news-grid" style="margin-top: 2.5rem;" ;>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('/img/bgmi2.PNG');"></div>
+                    <div class="news-content">
+                        <span class="news-date">June 2, 2026</span>
+                        <h3 class="news-title">BGMI World Invitational Results</h3>
+                        <p class="news-excerpt">Team Phoenix takes home the championship in a thrilling final match
+                            against Sentinels. The tournament featured 24 teams competing for a $500,000 prize pool.</p>
+                        <a href="#" class="btn" style="margin-top: 15px;">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('/img/league.PNG');"></div>
+                    <div class="news-content">
+                        <span class="news-date">May 20, 2026</span>
+                        <h3 class="news-title">New Gaming League Announced With $2 Million Prize Pool</h3>
+                        <p class="news-excerpt">A new cross-game esports league featuring Valorant, CS:GO, and Rainbow
+                            Six Siege has been announced with an unprecedented $2 million total prize pool.</p>
+                        <a href="#" class="btn" style="margin-top: 15px;">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('/img/valorant3.PNG');"></div>
+                    <div class="news-content">
+                        <span class="news-date">June 5, 2026</span>
+                        <h3 class="news-title">Valorant Patch 7.0 Introduces New Agent</h3>
+                        <p class="news-excerpt">The latest update brings a new controller agent and significant map
+                            changes to competitive play. The new agent, codenamed "Harbor", introduces water-based
+                            abilities.</p>
+                        <a href="#" class="btn" style="margin-top: 15px;">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('/img/freefire.PNG');"></div>
+                    <div class="news-content">
+                        <span class="news-date">May 28, 2026</span>
+                        <h3 class="news-title">Free Fire Announces New Tournament Format</h3>
+                        <p class="news-excerpt">Major changes coming to competitive Free Fire with new scoring system
+                            and map rotations. The update aims to make tournaments more competitive and viewer-friendly.
+                        </p>
+                        <a href="#" class="btn" style="margin-top: 15px;">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img" style="background-image: url('/img/csgo.PNG');"></div>
+                    <div class="news-content">
+                        <span class="news-date">May 25, 2026</span>
+                        <h3 class="news-title">CS:GO Major Championship Breaks Viewership Records</h3>
+                        <p class="news-excerpt">The recent PGL Major Stockholm 2026 set new esports viewership records
+                            with over 2.7 million concurrent viewers during the grand finals.</p>
+                        <a href="#" class="btn" style="margin-top: 15px;">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');">
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">May 15, 2026</span>
+                        <h3 class="news-title">Mobile Esports Continues Rapid Growth in 2023</h3>
+                        <p class="news-excerpt">Recent industry reports show mobile esports viewership and participation
+                            growing at twice the rate of PC esports, with games like BGMI and Free Fire leading.</p>
+                        <a href="#" class="btn" style="margin-top: 15px;">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GameArena</h3>
+                    <p>The ultimate destination for neon gaming experiences and digital excitement.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="esports.html">Esports</a></li>
+                        <li><a href="teams.html">Teams</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Games</h3>
+                    <ul class="footer-links">
+                        <li><a href="esports.html">Valorant</a></li>
+                        <li><a href="esports.html">BGMI</a></li>
+                        <li><a href="esports.html">Free Fire</a></li>
+                        <li><a href="esports.html">CS:GO</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 GameArena Legends. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
